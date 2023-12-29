@@ -17,7 +17,7 @@ def contrast_stretching(img, min_out, max_out):
 
 # Initialize the camera
 cap = cv2.VideoCapture('rtsp://admin:Kfnfiffe12354@10.110.130.223/Streaming/Channels/101')  # 0 corresponds to the default camera, you can change it if you have multiple cameras
-
+#cap = cv2.VideoCapture(0)
 while True:
     # Read a frame from the camera
     ret, frame = cap.read()
